@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="additional-copy-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB000"/>
+      <stop offset="100%" stop-color="#FF6E00"/>
+    </linearGradient>
+    <linearGradient id="additional-copy-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEFFFF"/>
+      <stop offset="100%" stop-color="#DBF4FF"/>
+    </linearGradient>
+    <polygon id="additional-copy-c" points="20 26.096 14.122 28.186 14.398 22.229 10.489 17.564 16.538 15.973 20 11 23.462 15.973 29.511 17.564 25.602 22.229 25.878 28.186"/>
+    <filter id="additional-copy-b" width="135.1%" height="132.6%" x="-17.6%" y="-10.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.769664116   0 0 0 0 0.151501479   0 0 0 0 0  0 0 0 0.353911911 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#additional-copy-a)" fill-rule="nonzero" stroke="#FFF" stroke-opacity=".555" stroke-width="3" d="M19.877301,1.5 C15.9862845,1.5 12.6645207,2.25687526 9.91578696,3.72691413 C7.24385633,5.15587827 5.15587827,7.24385633 3.72691413,9.91578696 C2.25687526,12.6645207 1.5,15.9862845 1.5,19.877301 L1.5,20.122699 C1.5,24.0137155 2.25687526,27.3354793 3.72691413,30.084213 C5.15587827,32.7561437 7.24385633,34.8441217 9.91578696,36.2730859 C12.6645207,37.7431247 15.9862845,38.5 19.877301,38.5 L20.122699,38.5 C24.0137155,38.5 27.3354793,37.7431247 30.084213,36.2730859 C32.7561437,34.8441217 34.8441217,32.7561437 36.2730859,30.084213 C37.7431247,27.3354793 38.5,24.0137155 38.5,20.122699 L38.5,19.877301 C38.5,15.9862845 37.7431247,12.6645207 36.2730859,9.91578696 C34.8441217,7.24385633 32.7561437,5.15587827 30.084213,3.72691413 C27.3354793,2.25687526 24.0137155,1.5 20.122699,1.5 L19.877301,1.5 Z"/>
+    <use fill="#000" filter="url(#additional-copy-b)" xlink:href="#additional-copy-c"/>
+    <use fill="url(#additional-copy-d)" xlink:href="#additional-copy-c"/>
+  </g>
+</svg>
